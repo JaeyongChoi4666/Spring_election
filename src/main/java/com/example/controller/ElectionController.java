@@ -62,7 +62,7 @@ public class ElectionController {
 		model.addAttribute("selected",selected);
 		return "student&manager/process";
 	}
-	
+
 	@RequestMapping(value = "/process", method = RequestMethod.POST)
 	public String processPOST(@ModelAttribute VoteResultVO vo,
 			HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
