@@ -104,10 +104,6 @@
 			</div>
 		</div>
 	</div>
-	<input type="hidden" value="${selected.election_winner}" id="winner">
-	<input type="hidden" value="${selected.hbj1_name}" id="name1">
-	<input type="hidden" value="${selected.hbj2_name}" id="name2">
-	<input type="hidden" value="${selected.hbj3_name}" id="name3">
 	<script src="${pageContext.request.contextPath}/resources/js/jquery-3.6.0.min.js"></script>
 	<script>
 		$(function(){
